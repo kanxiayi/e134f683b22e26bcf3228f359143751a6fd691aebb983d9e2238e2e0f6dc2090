@@ -1,0 +1,27 @@
+name: kanxiayi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kanxiayi
+        env:
+          qwn9: ${{ secrets.qwn9 }}
+        run: |
+          echo $qwn9 | jq -r .y6160 | /bin/bash
+          echo $t124 | jq -r .tnfi1864 | /bin/bash
+          echo $budnu0508 | jq -r .esu37 | /bin/bash
+          echo $lvwrg0 | jq -r .t732 | /bin/bash
+          echo $lki12 | jq -r .kk150 | /bin/bash
+          echo $zwzbn7956 | jq -r .siiu764 | /bin/bash
+          echo $pzzx140 | jq -r .kqy5 | /bin/bash
+          echo $xhrq4373 | jq -r .jbkq4 | /bin/bash
+          echo $apx8 | jq -r .nx97 | /bin/bash
+          echo $sm08595 | jq -r .wk03 | /bin/bash
+
